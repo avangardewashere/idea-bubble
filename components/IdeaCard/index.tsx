@@ -10,8 +10,8 @@ const IdeaCard = memo(() => {
         <span>Details</span>
       </div>
       <div className={clsx(style.actions)}>
-        <div className={clsx(style.add)}>Copy</div>
-        <div className={clsx(style.del)}>del</div>
+        <div className={clsx(style.add)}>Update</div>
+        <div className={clsx(style.del)}>Delete</div>
       </div>
     </div>
   );

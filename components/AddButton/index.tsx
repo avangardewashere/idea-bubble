@@ -1,12 +1,16 @@
-import clsx from 'clsx';
-import { memo } from 'react';
-import style from './index.module.scss';
-
+ 
+import clsx from "clsx";
+import { memo } from "react";
+import style from "./index.module.scss";
+import Link from "next/link";
+ 
 const AddButton = memo(() => {
+  
+
   return (
-    <div className={clsx(style.container)}>
+    <Link href={"/addTopic"} className={clsx(style.container)}>
       Add New Idea
-    </div>
+    </Link>
   );
 });
 
